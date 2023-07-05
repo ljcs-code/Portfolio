@@ -4,19 +4,55 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LJCS Portfolio</title>
+    <style>
+        footer {
+            columns: 3;
+            background-color: #abbaba;
+            color: whitesmoke;
+            padding: 10px;
+        }
+        .col-left {
+            text-align: left;
+        }
+        .col-center {
+            text-align: center;
+        }
+        .col-right {
+            text-align: right;
+        }
+    </style>
+
 </head>
 <body>
-    <h1>My First Webpages</h1>
-    <h2>By John</h2>
+    <header></header>
+    
+    <div>
+        <h1>Some Things I've Made</h1>
+        <h2>By John</h2>
+    </div>
+    
     <hr>
-    <h3><a href="./public/4th-cookout.html">Cookout Invite</a></h3>
+    
+    <div>
+    <h3><a href="./public/Invites/july4th/index.html">Cookout Invite</a></h3>
+    </div>
+    <hr>
 
-    <img src="./assets/images/Screenshot from 2023-07-01 09-32-22.png" height="200" alt="cookout invite screenshots">
-    <hr>
-    <h4>
-        <a href="./public/about.html">About Me</a>
-        &nbsp&nbsp&nbsp&nbsp&nbsp
-        <a href="./public/contact.html">Contact Me</a>
-    </h4>
+    <div>
+        <h3> <a href="./public/motivational/index.html">Modivational</a></h3>
+    </div>
+     <hr>
+
+    <footer>
+        <div class="col-left">
+            <a href="./public/about.html">About Me</a>
+        </div>
+        <div class="col-center">
+            Author: John
+        </div>
+        <div class="col-right">
+            <a href="./public/contact.html">Contact Me</a>
+        </div>    
+    </footer>
 </body>
 </html>
